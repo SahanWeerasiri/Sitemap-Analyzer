@@ -4,9 +4,11 @@ from src.sitemap_analyzer import SitemapAnalyzer
 
 load_dotenv()
 
-# Example Usage (Adjust as needed)
 if __name__ == "__main__":
-    sitemap_url = "https://example.com/sitemap.xml"  # Replace with the actual sitemap URL
+    sitemap_url = os.getenv("SITEMAP_URL", "https://example.com/sitemap.xml")
     analyzer = SitemapAnalyzer(sitemap_url)
-    results = analyzer.analyze()
-    print(results)
+    try:
+        results = analyzer.analyze()
+        print(results)
+    except Exception as e:
+        print(f"An error occurred: {e}")
