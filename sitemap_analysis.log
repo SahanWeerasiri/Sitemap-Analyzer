@@ -1,0 +1,700 @@
+2025-07-13 16:19:31,447 - __main__ - INFO - Starting sitemap analysis for: https://www.imdb.com/sitemap.xml
+2025-07-13 16:19:31,448 - src.sitemap_analyzer - INFO - Initialized SitemapAnalyzer for https://www.imdb.com/sitemap.xml
+2025-07-13 16:19:31,448 - src.sitemap_analyzer - INFO - Base URL extracted: https://www.imdb.com
+2025-07-13 16:19:31,449 - src.sitemap_analyzer - INFO - Starting sitemap analysis
+2025-07-13 16:19:31,449 - src.sitemap_analyzer - INFO - Fetching sitemap from https://www.imdb.com/sitemap.xml
+2025-07-13 16:19:32,013 - src.sitemap_analyzer - ERROR - Error fetching sitemap: 404 Client Error: Not Found for url: https://www.imdb.com/sitemap.xml
+2025-07-13 16:19:32,015 - __main__ - ERROR - Analysis failed: Error fetching sitemap: 404 Client Error: Not Found for url: https://www.imdb.com/sitemap.xml
+2025-07-13 16:25:51,378 - __main__ - INFO - Starting sitemap analysis for: https://www.imdb.com
+2025-07-13 16:25:51,378 - __main__ - INFO - The analyzer will automatically:
+2025-07-13 16:25:51,378 - __main__ - INFO - 1. Check if the URL is a direct sitemap.xml
+2025-07-13 16:25:51,379 - __main__ - INFO - 2. Look for sitemap in robots.txt if not found
+2025-07-13 16:25:51,379 - __main__ - INFO - 3. Try common sitemap locations (/sitemap.xml, /sitemap_index.xml, etc.)
+2025-07-13 16:25:51,379 - src.sitemap_analyzer - INFO - Attempting to find sitemap URL from: https://www.imdb.com
+2025-07-13 16:25:51,380 - src.sitemap_analyzer - INFO - Checking robots.txt at: https://www.imdb.com/robots.txt
+2025-07-13 16:27:38,542 - __main__ - INFO - Starting sitemap analysis for: https://www.imdb.com
+2025-07-13 16:27:38,543 - __main__ - INFO - The analyzer will automatically:
+2025-07-13 16:27:38,543 - __main__ - INFO - 1. Check if the URL is a direct sitemap.xml
+2025-07-13 16:27:38,543 - __main__ - INFO - 2. Look for sitemap in robots.txt if not found
+2025-07-13 16:27:38,543 - __main__ - INFO - 3. Try common sitemap locations (/sitemap.xml, /sitemap_index.xml, etc.)
+2025-07-13 16:27:38,543 - src.sitemap_analyzer - INFO - Attempting to find sitemap URL from: https://www.imdb.com
+2025-07-13 16:27:38,544 - src.sitemap_analyzer - INFO - Checking robots.txt at: https://www.imdb.com/robots.txt
+2025-07-13 16:27:39,088 - src.sitemap_analyzer - INFO - Trying common sitemap locations
+2025-07-13 16:27:41,509 - src.sitemap_analyzer - WARNING - Could not find a valid sitemap. Using original URL: https://www.imdb.com
+2025-07-13 16:27:41,511 - src.sitemap_analyzer - INFO - Initialized SitemapAnalyzer for https://www.imdb.com
+2025-07-13 16:27:41,511 - src.sitemap_analyzer - INFO - Base URL extracted: https://www.imdb.com
+2025-07-13 16:27:41,512 - src.sitemap_analyzer - INFO - Starting sitemap analysis
+2025-07-13 16:27:41,513 - src.sitemap_analyzer - INFO - Fetching sitemap from https://www.imdb.com
+2025-07-13 16:27:42,936 - src.sitemap_analyzer - INFO - Detected regular sitemap file
+2025-07-13 16:27:42,937 - src.sitemap_analyzer - INFO - Found 0 URLs in total from sitemap(s)
+2025-07-13 16:27:42,937 - src.sitemap_analyzer - ERROR - No URLs found in sitemap
+2025-07-13 16:27:42,938 - __main__ - ERROR - Analysis failed: No URLs found in sitemap
+2025-07-13 16:29:28,628 - __main__ - INFO - Starting sitemap analysis for: https://en.wikipedia.org/
+2025-07-13 16:29:28,628 - __main__ - INFO - The analyzer will automatically:
+2025-07-13 16:29:28,629 - __main__ - INFO - 1. Check if the URL is a direct sitemap.xml
+2025-07-13 16:29:28,629 - __main__ - INFO - 2. Look for sitemap in robots.txt if not found
+2025-07-13 16:29:28,629 - __main__ - INFO - 3. Try common sitemap locations (/sitemap.xml, /sitemap_index.xml, etc.)
+2025-07-13 16:29:28,629 - src.sitemap_analyzer - INFO - Attempting to find sitemap URL from: https://en.wikipedia.org/
+2025-07-13 16:29:28,629 - src.sitemap_analyzer - INFO - Checking robots.txt at: https://en.wikipedia.org/robots.txt
+2025-07-13 16:29:28,775 - src.sitemap_analyzer - INFO - Trying common sitemap locations
+2025-07-13 16:29:29,632 - src.sitemap_analyzer - WARNING - Could not find a valid sitemap. Using original URL: https://en.wikipedia.org/
+2025-07-13 16:29:29,633 - src.sitemap_analyzer - INFO - Initialized SitemapAnalyzer for https://en.wikipedia.org/
+2025-07-13 16:29:29,633 - src.sitemap_analyzer - INFO - Base URL extracted: https://en.wikipedia.org
+2025-07-13 16:29:29,634 - src.sitemap_analyzer - INFO - Starting sitemap analysis
+2025-07-13 16:29:29,634 - src.sitemap_analyzer - INFO - Fetching sitemap from https://en.wikipedia.org/
+2025-07-13 16:29:30,349 - src.sitemap_analyzer - INFO - Detected regular sitemap file
+2025-07-13 16:29:30,350 - src.sitemap_analyzer - INFO - Found 0 URLs in total from sitemap(s)
+2025-07-13 16:29:30,350 - src.sitemap_analyzer - ERROR - No URLs found in sitemap
+2025-07-13 16:29:30,351 - __main__ - ERROR - Analysis failed: No URLs found in sitemap
+2025-07-13 16:32:52,741 - __main__ - INFO - Starting sitemap analysis for: https://en.wikipedia.org/
+2025-07-13 16:32:52,741 - __main__ - INFO - The analyzer will automatically:
+2025-07-13 16:32:52,742 - __main__ - INFO - 1. Check if the URL is a direct sitemap.xml
+2025-07-13 16:32:52,742 - __main__ - INFO - 2. Look for sitemap in robots.txt if not found
+2025-07-13 16:32:52,742 - __main__ - INFO - 3. Try common sitemap locations (/sitemap.xml, /sitemap_index.xml, etc.)
+2025-07-13 16:32:52,742 - src.sitemap_analyzer - INFO - Attempting to find sitemap URL from: https://en.wikipedia.org/
+2025-07-13 16:32:52,742 - src.sitemap_analyzer - INFO - Checking robots.txt at: https://en.wikipedia.org/robots.txt
+2025-07-13 16:32:52,922 - src.sitemap_analyzer - INFO - Trying common sitemap locations
+2025-07-13 16:32:53,137 - src.sitemap_analyzer - WARNING - No sitemap found, falling back to robots.txt for URL extraction
+2025-07-13 16:32:53,138 - src.sitemap_analyzer - INFO - Initialized SitemapAnalyzer for https://en.wikipedia.org/robots.txt
+2025-07-13 16:32:53,138 - src.sitemap_analyzer - INFO - Base URL extracted: https://en.wikipedia.org
+2025-07-13 16:32:53,139 - src.sitemap_analyzer - INFO - Starting sitemap analysis
+2025-07-13 16:32:53,139 - src.sitemap_analyzer - INFO - Fetching sitemap from https://en.wikipedia.org/robots.txt
+2025-07-13 16:32:53,196 - src.sitemap_analyzer - INFO - Detected robots.txt file, extracting URLs from robots directives
+2025-07-13 16:32:53,196 - src.sitemap_analyzer - INFO - Parsing robots.txt content for URLs
+2025-07-13 16:32:53,209 - src.sitemap_analyzer - INFO - Extracted 432 URLs from robots.txt analysis
+2025-07-13 16:32:53,210 - src.sitemap_analyzer - INFO - Found 432 URLs in total from sitemap(s)
+2025-07-13 16:32:53,210 - src.sitemap_analyzer - INFO - Starting parallel analysis tasks
+2025-07-13 16:32:53,212 - src.sitemap_analyzer - INFO - Submitting broken links detection task
+2025-07-13 16:32:53,214 - src.sitemap_analyzer - INFO - Starting broken links detection for 432 URLs
+2025-07-13 16:32:53,214 - src.sitemap_analyzer - INFO - Submitting orphan pages detection task
+2025-07-13 16:32:53,218 - src.sitemap_analyzer - INFO - Starting orphan pages detection for 432 URLs
+2025-07-13 16:32:53,218 - src.sitemap_analyzer - INFO - Submitting SEO issues detection task
+2025-07-13 16:32:53,220 - src.sitemap_analyzer - INFO - Crawling website to discover internal links
+2025-07-13 16:32:53,224 - src.sitemap_analyzer - INFO - Starting website crawl from https://en.wikipedia.org
+2025-07-13 16:32:53,227 - src.sitemap_analyzer - INFO - Starting SEO issues detection for 432 URLs
+2025-07-13 16:32:53,579 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/trap/ (Status: 404)
+2025-07-13 16:32:53,580 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/trap/: 404 Client Error: Not Found for url: https://en.wikipedia.org/trap/
+2025-07-13 16:32:53,683 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Special%3A: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Special%3A
+2025-07-13 16:32:53,684 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Special: (Status: 404)
+2025-07-13 16:32:53,685 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Special%3A (Status: 404)
+2025-07-13 16:32:53,685 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Special:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Special:
+2025-07-13 16:32:53,858 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Spesial%3A (Status: 404)
+2025-07-13 16:32:53,859 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Spesial:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Spesial:
+2025-07-13 16:32:53,860 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Spezial%3A (Status: 404)
+2025-07-13 16:32:53,861 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Spesial%3A: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Spesial%3A
+2025-07-13 16:32:53,861 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Spezial%3A: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Spezial%3A
+2025-07-13 16:32:53,862 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Spesial: (Status: 404)
+2025-07-13 16:32:53,864 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Spezial:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Spezial:
+2025-07-13 16:32:53,864 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Spezial: (Status: 404)
+2025-07-13 16:32:53,865 - src.sitemap_analyzer - INFO - Checked 10/432 links for broken status
+2025-07-13 16:32:53,869 - src.sitemap_analyzer - INFO - Checked 10/432 pages for SEO issues
+2025-07-13 16:32:54,045 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D8%AE%D8%A7%D8%B5:Search: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D8%AE%D8%A7%D8%B5:Search
+2025-07-13 16:32:54,046 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D8%AE%D8%A7%D8%B5:Search (Status: 404)
+2025-07-13 16:32:54,047 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D8%AE%D8%A7%D8%B5%3ASearch (Status: 404)
+2025-07-13 16:32:54,049 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D8%AE%D8%A7%D8%B5%3ASearch: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D8%AE%D8%A7%D8%B5%3ASearch
+2025-07-13 16:32:54,305 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Administratoren/Probleme/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Administratoren/Probleme/
+2025-07-13 16:32:54,306 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Administratoren/Probleme/ (Status: 404)
+2025-07-13 16:32:54,323 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Vermittlungsausschuss/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Vermittlungsausschuss/
+2025-07-13 16:32:54,326 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Vermittlungsausschuss/ (Status: 404)
+2025-07-13 16:32:54,369 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Adminkandidaturen/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Adminkandidaturen/
+2025-07-13 16:32:54,369 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Adminkandidaturen/ (Status: 404)
+2025-07-13 16:32:54,535 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Vandalismusmeldung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Vandalismusmeldung/
+2025-07-13 16:32:54,535 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Vandalismusmeldung/ (Status: 404)
+2025-07-13 16:32:54,591 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Vandalensperrung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Vandalensperrung/
+2025-07-13 16:32:54,592 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Löschkandidaten/ (Status: 404)
+2025-07-13 16:32:54,593 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Vandalensperrung/ (Status: 404)
+2025-07-13 16:32:54,605 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schkandidaten/ (Status: 404)
+2025-07-13 16:32:54,605 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Benutzersperrung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Benutzersperrung/
+2025-07-13 16:32:54,605 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Benutzersperrung/ (Status: 404)
+2025-07-13 16:32:54,605 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schkandidaten/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schkandidaten/
+2025-07-13 16:32:54,605 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Löschkandidaten/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schkandidaten/
+2025-07-13 16:32:54,679 - src.sitemap_analyzer - INFO - Checked 20/432 links for broken status
+2025-07-13 16:32:54,684 - src.sitemap_analyzer - INFO - Checked 20/432 pages for SEO issues
+2025-07-13 16:32:54,742 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Gesperrte_Lemmata/ (Status: 404)
+2025-07-13 16:32:54,743 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Qualitätssicherung/ (Status: 404)
+2025-07-13 16:32:54,746 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Gesperrte_Lemmata/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Gesperrte_Lemmata/
+2025-07-13 16:32:54,746 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Qualitätssicherung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Qualit%C3%A4tssicherung/
+2025-07-13 16:32:54,746 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Qualit%C3%A4tssicherung/ (Status: 404)
+2025-07-13 16:32:54,746 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Qualit%C3%A4tssicherung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Qualit%C3%A4tssicherung/
+2025-07-13 16:32:54,795 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Löschprüfung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schpr%C3%BCfung/
+2025-07-13 16:32:54,797 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schprüfung/ (Status: 404)
+2025-07-13 16:32:54,797 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Löschprüfung/ (Status: 404)
+2025-07-13 16:32:54,797 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schprüfung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schpr%C3%BCfung/
+2025-07-13 16:32:54,798 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schpr%C3%BCfung/ (Status: 404)
+2025-07-13 16:32:54,799 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schpr%C3%BCfung/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:L%C3%B6schpr%C3%BCfung/
+2025-07-13 16:32:55,020 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Administratoren/Notizen/ (Status: 404)
+2025-07-13 16:32:55,021 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Administratoren/Notizen/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Administratoren/Notizen/
+2025-07-13 16:32:55,202 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Spam-Blacklist-Log (Status: 404)
+2025-07-13 16:32:55,203 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ASpam-Blacklist-Log (Status: 404)
+2025-07-13 16:32:55,204 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Spam-Blacklist-Log: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Spam-Blacklist-Log
+2025-07-13 16:32:55,204 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ASpam-Blacklist-Log: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ASpam-Blacklist-Log
+2025-07-13 16:32:55,206 - src.sitemap_analyzer - INFO - Checked 30/432 links for broken status
+2025-07-13 16:32:55,216 - src.sitemap_analyzer - INFO - Checked 30/432 pages for SEO issues
+2025-07-13 16:32:55,219 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Adminkandidaturen/ (Status: 404)
+2025-07-13 16:32:55,224 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Adminkandidaturen/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Adminkandidaturen/
+2025-07-13 16:32:55,295 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Spam-Blacklist-Log: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Spam-Blacklist-Log
+2025-07-13 16:32:55,301 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_Diskussion%3ASpam-Blacklist-Log: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_Diskussion%3ASpam-Blacklist-Log
+2025-07-13 16:32:55,301 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Spam-Blacklist-Log (Status: 404)
+2025-07-13 16:32:55,302 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_Diskussion%3ASpam-Blacklist-Log (Status: 404)
+2025-07-13 16:32:55,441 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Checkuser/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Checkuser/
+2025-07-13 16:32:55,448 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_Diskussion:Checkuser/ (Status: 404)
+2025-07-13 16:32:55,514 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Schiedsgericht/Anfragen/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Schiedsgericht/Anfragen/
+2025-07-13 16:32:55,514 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Schiedsgericht/Anfragen/ (Status: 404)
+2025-07-13 16:32:55,575 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Checkuser/ (Status: 404)
+2025-07-13 16:32:55,578 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Checkuser/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Checkuser/
+2025-07-13 16:32:55,708 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3APages_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3APages_for_deletion/
+2025-07-13 16:32:55,709 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Pages_for_deletion/ (Status: 404)
+2025-07-13 16:32:55,710 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Pages_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Pages_for_deletion/
+2025-07-13 16:32:55,713 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3APages_for_deletion/ (Status: 404)
+2025-07-13 16:32:55,733 - src.sitemap_analyzer - INFO - Checked 40/432 links for broken status
+2025-07-13 16:32:55,877 - src.sitemap_analyzer - INFO - Checked 40/432 pages for SEO issues
+2025-07-13 16:32:56,010 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AMiscellaneous_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AMiscellaneous_deletion/
+2025-07-13 16:32:56,010 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AMiscellaneous_deletion/ (Status: 404)
+2025-07-13 16:32:56,010 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Miscellaneous_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Miscellaneous_deletion/
+2025-07-13 16:32:56,011 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Miscellaneous_deletion/ (Status: 404)
+2025-07-13 16:32:56,070 - src.sitemap_analyzer - INFO - Crawled 10 pages so far
+2025-07-13 16:32:56,292 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AProtected_titles/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AProtected_titles/
+2025-07-13 16:32:56,292 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Protected_titles/ (Status: 404)
+2025-07-13 16:32:56,293 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AProtected_titles/ (Status: 404)
+2025-07-13 16:32:56,293 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Protected_titles/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Protected_titles/
+2025-07-13 16:32:56,740 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Spam/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Spam/
+2025-07-13 16:32:56,741 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AWikiProject_Spam/ (Status: 404)
+2025-07-13 16:32:56,741 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AWikiProject_Spam/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AWikiProject_Spam/
+2025-07-13 16:32:56,742 - src.sitemap_analyzer - INFO - Checked 50/432 pages for SEO issues
+2025-07-13 16:32:56,742 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_Spam/ (Status: 404)
+2025-07-13 16:32:56,744 - src.sitemap_analyzer - INFO - Checked 50/432 links for broken status
+2025-07-13 16:32:57,713 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/ (Status: 404)
+2025-07-13 16:32:57,713 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ARequests_for_comment/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ARequests_for_comment/
+2025-07-13 16:32:57,716 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Requests_for_comment/
+2025-07-13 16:32:57,718 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ARequests_for_comment/ (Status: 404)
+2025-07-13 16:32:58,027 - src.sitemap_analyzer - INFO - Checked 60/432 links for broken status
+2025-07-13 16:32:58,414 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk:Votes_for_deletion/ (Status: 404)
+2025-07-13 16:32:58,446 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk%3APages_for_deletion/ (Status: 404)
+2025-07-13 16:32:58,650 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk%3APages_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk%3APages_for_deletion/
+2025-07-13 16:32:58,706 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk:Pages_for_deletion/ (Status: 404)
+2025-07-13 16:32:58,726 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk:Pages_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk:Pages_for_deletion/
+2025-07-13 16:32:58,728 - src.sitemap_analyzer - INFO - Checked 60/432 pages for SEO issues
+2025-07-13 16:32:58,771 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk:Miscellany_for_deletion/ (Status: 404)
+2025-07-13 16:32:58,786 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk%3AMiscellany_for_deletion/ (Status: 404)
+2025-07-13 16:32:58,817 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk:Votes_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk:Votes_for_deletion/
+2025-07-13 16:32:59,018 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk%3AVotes_for_deletion/ (Status: 404)
+2025-07-13 16:32:59,025 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk%3AVotes_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk%3AVotes_for_deletion/
+2025-07-13 16:32:59,108 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk:Miscellany_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk:Miscellany_for_deletion/
+2025-07-13 16:32:59,197 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk:Miscellaneous_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk:Miscellaneous_deletion/
+2025-07-13 16:32:59,197 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk:Miscellaneous_deletion/ (Status: 404)
+2025-07-13 16:32:59,244 - src.sitemap_analyzer - INFO - Checked 70/432 links for broken status
+2025-07-13 16:32:59,244 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk%3AMiscellaneous_deletion/ (Status: 404)
+2025-07-13 16:32:59,259 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk%3AMiscellaneous_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk%3AMiscellaneous_deletion/
+2025-07-13 16:32:59,512 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk%3AMiscellany_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk%3AMiscellany_for_deletion/
+2025-07-13 16:32:59,795 - src.sitemap_analyzer - INFO - Checked 70/432 pages for SEO issues
+2025-07-13 16:32:59,873 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk:Changing_username/ (Status: 404)
+2025-07-13 16:33:00,062 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk%3AChanging_username/ (Status: 404)
+2025-07-13 16:33:00,220 - src.sitemap_analyzer - INFO - Checked 80/432 links for broken status
+2025-07-13 16:33:00,267 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk:Changing_username/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk:Changing_username/
+2025-07-13 16:33:00,268 - src.sitemap_analyzer - INFO - Checked 80/432 pages for SEO issues
+2025-07-13 16:33:00,297 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk%3AChanging_username/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk%3AChanging_username/
+2025-07-13 16:33:00,325 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Consultas_de_borrado/ (Status: 404)
+2025-07-13 16:33:00,327 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Consultas_de_borrado/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Consultas_de_borrado/
+2025-07-13 16:33:00,330 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AConsultas_de_borrado/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AConsultas_de_borrado/
+2025-07-13 16:33:00,332 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AConsultas_de_borrado/ (Status: 404)
+2025-07-13 16:33:00,449 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Poistettavat_sivut (Status: 404)
+2025-07-13 16:33:00,449 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Poistettavat_sivut: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Poistettavat_sivut
+2025-07-13 16:33:00,522 - src.sitemap_analyzer - INFO - Crawled 20 pages so far
+2025-07-13 16:33:00,538 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Käyttäjä:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/K%C3%A4ytt%C3%A4j%C3%A4:
+2025-07-13 16:33:00,538 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/K%C3%A4ytt%C3%A4j%C3%A4:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/K%C3%A4ytt%C3%A4j%C3%A4:
+2025-07-13 16:33:00,538 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Käyttäjä: (Status: 404)
+2025-07-13 16:33:00,539 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/K%C3%A4ytt%C3%A4j%C3%A4: (Status: 404)
+2025-07-13 16:33:00,869 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Keskustelu_käyttäjästä:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:
+2025-07-13 16:33:00,869 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4: (Status: 404)
+2025-07-13 16:33:00,870 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:
+2025-07-13 16:33:00,870 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Keskustelu_käyttäjästä: (Status: 404)
+2025-07-13 16:33:00,882 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%97%D7%93%3ASearch (Status: 404)
+2025-07-13 16:33:00,883 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%97%D7%93:Search (Status: 404)
+2025-07-13 16:33:00,884 - src.sitemap_analyzer - INFO - Checked 90/432 links for broken status
+2025-07-13 16:33:00,887 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%97%D7%93:Search: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%97%D7%93:Search
+2025-07-13 16:33:00,887 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%97%D7%93%3ASearch: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%9E%D7%99%D7%95%D7%97%D7%93%3ASearch
+2025-07-13 16:33:00,890 - src.sitemap_analyzer - INFO - Checked 90/432 pages for SEO issues
+2025-07-13 16:33:01,106 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Ylläpitäjät/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Yll%C3%A4pit%C3%A4j%C3%A4t/
+2025-07-13 16:33:01,107 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Yll%C3%A4pit%C3%A4j%C3%A4t/ (Status: 404)
+2025-07-13 16:33:01,107 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Yll%C3%A4pit%C3%A4j%C3%A4t/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Yll%C3%A4pit%C3%A4j%C3%A4t/
+2025-07-13 16:33:01,108 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Ylläpitäjät/ (Status: 404)
+2025-07-13 16:33:01,253 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%A8%D7%A9%D7%99%D7%9E%D7%AA_%D7%9E%D7%95%D7%A2%D7%9E%D7%93%D7%99%D7%9D_%D7%9C%D7%9E%D7%97%D7%99%D7%A7%D7%94/ (Status: 404)
+2025-07-13 16:33:01,255 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%A8%D7%A9%D7%99%D7%9E%D7%AA_%D7%9E%D7%95%D7%A2%D7%9E%D7%93%D7%99%D7%9D_%D7%9C%D7%9E%D7%97%D7%99%D7%A7%D7%94/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%A8%D7%A9%D7%99%D7%9E%D7%AA_%D7%9E%D7%95%D7%A2%D7%9E%D7%93%D7%99%D7%9D_%D7%9C%D7%9E%D7%97%D7%99%D7%A7%D7%94/
+2025-07-13 16:33:01,257 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%A8%D7%A9%D7%99%D7%9E%D7%AA_%D7%9E%D7%95%D7%A2%D7%9E%D7%93%D7%99%D7%9D_%D7%9C%D7%9E%D7%97%D7%99%D7%A7%D7%94/ (Status: 404)
+2025-07-13 16:33:01,260 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%A8%D7%A9%D7%99%D7%9E%D7%AA_%D7%9E%D7%95%D7%A2%D7%9E%D7%93%D7%99%D7%9D_%D7%9C%D7%9E%D7%97%D7%99%D7%A7%D7%94/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%A8%D7%A9%D7%99%D7%9E%D7%AA_%D7%9E%D7%95%D7%A2%D7%9E%D7%93%D7%99%D7%9D_%D7%9C%D7%9E%D7%97%D7%99%D7%A7%D7%94/
+2025-07-13 16:33:01,811 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%93%D7%A4%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%93%D7%A4%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D
+2025-07-13 16:33:01,812 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%93%D7%A4%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D (Status: 404)
+2025-07-13 16:33:02,031 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D (Status: 404)
+2025-07-13 16:33:02,034 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D
+2025-07-13 16:33:02,036 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%93%D7%A4%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%93%D7%A4%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D
+2025-07-13 16:33:02,037 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D
+2025-07-13 16:33:02,051 - src.sitemap_analyzer - INFO - Checked 100/432 links for broken status
+2025-07-13 16:33:02,059 - src.sitemap_analyzer - INFO - Checked 100/432 pages for SEO issues
+2025-07-13 16:33:02,072 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94:%D7%A2%D7%A8%D7%9B%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D (Status: 404)
+2025-07-13 16:33:02,082 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D7%95%D7%99%D7%A7%D7%99%D7%A4%D7%93%D7%99%D7%94%3A%D7%93%D7%A4%D7%99%D7%9D_%D7%9C%D7%90_%D7%A7%D7%99%D7%99%D7%9E%D7%99%D7%9D_%D7%95%D7%9E%D7%95%D7%92%D7%A0%D7%99%D7%9D (Status: 404)
+2025-07-13 16:33:02,692 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Speci%C3%A1lis:Search: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Speci%C3%A1lis:Search
+2025-07-13 16:33:02,693 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Speci%C3%A1lis%3ASearch (Status: 404)
+2025-07-13 16:33:02,693 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Speci%C3%A1lis%3ASearch: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Speci%C3%A1lis%3ASearch
+2025-07-13 16:33:02,693 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Speci%C3%A1lis:Search (Status: 404)
+2025-07-13 16:33:02,705 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Vandalismi_in_corso: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Vandalismi_in_corso
+2025-07-13 16:33:02,705 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AVandalismi_in_corso (Status: 404)
+2025-07-13 16:33:02,705 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AVandalismi_in_corso: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AVandalismi_in_corso
+2025-07-13 16:33:02,707 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Vandalismi_in_corso (Status: 404)
+2025-07-13 16:33:02,901 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Amministratori (Status: 404)
+2025-07-13 16:33:02,907 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AAmministratori (Status: 404)
+2025-07-13 16:33:02,908 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AAmministratori: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AAmministratori
+2025-07-13 16:33:02,908 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Amministratori: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Amministratori
+2025-07-13 16:33:02,912 - src.sitemap_analyzer - INFO - Checked 110/432 links for broken status
+2025-07-13 16:33:02,916 - src.sitemap_analyzer - INFO - Checked 110/432 pages for SEO issues
+2025-07-13 16:33:02,941 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Utenti_problematici: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Utenti_problematici
+2025-07-13 16:33:02,941 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Utenti_problematici (Status: 404)
+2025-07-13 16:33:02,941 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AUtenti_problematici: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AUtenti_problematici
+2025-07-13 16:33:02,942 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AUtenti_problematici (Status: 404)
+2025-07-13 16:33:03,109 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Pagine_da_cancellare (Status: 404)
+2025-07-13 16:33:03,111 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Pagine_da_cancellare: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Pagine_da_cancellare
+2025-07-13 16:33:03,111 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3APagine_da_cancellare (Status: 404)
+2025-07-13 16:33:03,115 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3APagine_da_cancellare: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3APagine_da_cancellare
+2025-07-13 16:33:03,205 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria%3ADa_cancellare_subito: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria%3ADa_cancellare_subito
+2025-07-13 16:33:03,206 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria%3ADa_cancellare_subito (Status: 404)
+2025-07-13 16:33:03,208 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito
+2025-07-13 16:33:03,209 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito (Status: 404)
+2025-07-13 16:33:03,392 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Proposte_di_cancellazione_semplificata: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Proposte_di_cancellazione_semplificata
+2025-07-13 16:33:03,392 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AProposte_di_cancellazione_semplificata: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AProposte_di_cancellazione_semplificata
+2025-07-13 16:33:03,393 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AProposte_di_cancellazione_semplificata (Status: 404)
+2025-07-13 16:33:03,393 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Proposte_di_cancellazione_semplificata (Status: 404)
+2025-07-13 16:33:03,800 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Sospette_violazioni_di_copyright (Status: 404)
+2025-07-13 16:33:03,800 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Sospette_violazioni_di_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Sospette_violazioni_di_copyright
+2025-07-13 16:33:03,801 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ASospette_violazioni_di_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ASospette_violazioni_di_copyright
+2025-07-13 16:33:03,801 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ASospette_violazioni_di_copyright (Status: 404)
+2025-07-13 16:33:03,808 - src.sitemap_analyzer - INFO - Checked 120/432 pages for SEO issues
+2025-07-13 16:33:03,810 - src.sitemap_analyzer - INFO - Checked 120/432 links for broken status
+2025-07-13 16:33:03,948 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria%3ADa_controllare_per_copyright (Status: 404)
+2025-07-13 16:33:03,948 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria%3ADa_controllare_per_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria%3ADa_controllare_per_copyright
+2025-07-13 16:33:03,988 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria:Da_controllare_per_copyright (Status: 404)
+2025-07-13 16:33:03,995 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria:Da_controllare_per_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria:Da_controllare_per_copyright
+2025-07-13 16:33:04,002 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Progetto:Rimozione_contributi_sospetti (Status: 404)
+2025-07-13 16:33:04,004 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Progetto:Rimozione_contributi_sospetti: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Progetto:Rimozione_contributi_sospetti
+2025-07-13 16:33:04,005 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Progetto%3ARimozione_contributi_sospetti (Status: 404)
+2025-07-13 16:33:04,008 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Progetto%3ARimozione_contributi_sospetti: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Progetto%3ARimozione_contributi_sospetti
+2025-07-13 16:33:04,156 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito_per_violazione_integrale_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito_per_violazione_integrale_copyright
+2025-07-13 16:33:04,157 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria%3ADa_cancellare_subito_per_violazione_integrale_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria%3ADa_cancellare_subito_per_violazione_integrale_copyright
+2025-07-13 16:33:04,157 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria%3ADa_cancellare_subito_per_violazione_integrale_copyright (Status: 404)
+2025-07-13 16:33:04,157 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito_per_violazione_integrale_copyright (Status: 404)
+2025-07-13 16:33:04,253 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Discussioni_progetto:Cococo (Status: 404)
+2025-07-13 16:33:04,254 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Discussioni_progetto:Cococo: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Discussioni_progetto:Cococo
+2025-07-13 16:33:04,254 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Discussioni_progetto%3ACococo: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Discussioni_progetto%3ACococo
+2025-07-13 16:33:04,255 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Discussioni_progetto%3ACococo (Status: 404)
+2025-07-13 16:33:04,308 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Progetto%3ACococo (Status: 404)
+2025-07-13 16:33:04,308 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Progetto:Cococo (Status: 404)
+2025-07-13 16:33:04,308 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Progetto%3ACococo: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Progetto%3ACococo
+2025-07-13 16:33:04,310 - src.sitemap_analyzer - INFO - Checked 130/432 links for broken status
+2025-07-13 16:33:04,313 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Progetto:Cococo: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Progetto:Cococo
+2025-07-13 16:33:04,314 - src.sitemap_analyzer - INFO - Checked 130/432 pages for SEO issues
+2025-07-13 16:33:04,477 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC/ (Status: 404)
+2025-07-13 16:33:04,480 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%E7%89%B9%E5%88%A5:Search: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%E7%89%B9%E5%88%A5:Search
+2025-07-13 16:33:04,480 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%E7%89%B9%E5%88%A5%3ASearch (Status: 404)
+2025-07-13 16:33:04,481 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%E7%89%B9%E5%88%A5%3ASearch: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%E7%89%B9%E5%88%A5%3ASearch
+2025-07-13 16:33:04,482 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC/
+2025-07-13 16:33:04,482 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3A%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3A%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC/
+2025-07-13 16:33:04,482 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3A%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC/ (Status: 404)
+2025-07-13 16:33:04,484 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%E7%89%B9%E5%88%A5:Search (Status: 404)
+2025-07-13 16:33:04,772 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AAdministratorer: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AAdministratorer
+2025-07-13 16:33:04,773 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AAdministratorer (Status: 404)
+2025-07-13 16:33:04,773 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Administratorer (Status: 404)
+2025-07-13 16:33:04,780 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Administratorer: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Administratorer
+2025-07-13 16:33:04,781 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Brukerdiskusjon (Status: 404)
+2025-07-13 16:33:04,782 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Brukerdiskusjon: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Brukerdiskusjon
+2025-07-13 16:33:05,016 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3A%E5%88%A9%E7%94%A8%E8%80%85%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC (Status: 404)
+2025-07-13 16:33:05,017 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3A%E5%88%A9%E7%94%A8%E8%80%85%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3A%E5%88%A9%E7%94%A8%E8%80%85%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC
+2025-07-13 16:33:05,017 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A9%E7%94%A8%E8%80%85%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC (Status: 404)
+2025-07-13 16:33:05,018 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A9%E7%94%A8%E8%80%85%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A9%E7%94%A8%E8%80%85%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E5%89%8A%E9%99%A4%E4%BE%9D%E9%A0%BC
+2025-07-13 16:33:05,145 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Sletting: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Sletting
+2025-07-13 16:33:05,145 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ASletting: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ASletting
+2025-07-13 16:33:05,146 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Sletting (Status: 404)
+2025-07-13 16:33:05,146 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ASletting (Status: 404)
+2025-07-13 16:33:05,147 - src.sitemap_analyzer - INFO - Checked 140/432 pages for SEO issues
+2025-07-13 16:33:05,155 - src.sitemap_analyzer - INFO - Checked 140/432 links for broken status
+2025-07-13 16:33:05,182 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Bruker%3A (Status: 404)
+2025-07-13 16:33:05,182 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Bruker: (Status: 404)
+2025-07-13 16:33:05,182 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Bruker%3A: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Bruker%3A
+2025-07-13 16:33:05,183 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Bruker:: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Bruker:
+2025-07-13 16:33:05,304 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia-diskusjon%3ASletting (Status: 404)
+2025-07-13 16:33:05,305 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia-diskusjon%3ASletting: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia-diskusjon%3ASletting
+2025-07-13 16:33:05,305 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia-diskusjon:Sletting (Status: 404)
+2025-07-13 16:33:05,311 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia-diskusjon:Sletting: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia-diskusjon:Sletting
+2025-07-13 16:33:05,375 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia-diskusjon%3AAdministratorer (Status: 404)
+2025-07-13 16:33:05,376 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia-diskusjon%3AAdministratorer: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia-diskusjon%3AAdministratorer
+2025-07-13 16:33:05,376 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia-diskusjon:Administratorer: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia-diskusjon:Administratorer
+2025-07-13 16:33:05,380 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia-diskusjon:Administratorer (Status: 404)
+2025-07-13 16:33:05,866 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ASDU/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ASDU/
+2025-07-13 16:33:05,867 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:SDU/ (Status: 404)
+2025-07-13 16:33:05,867 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ASDU/ (Status: 404)
+2025-07-13 16:33:05,868 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:SDU/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:SDU/
+2025-07-13 16:33:05,896 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AStrony_do_usuni%C4%99cia (Status: 404)
+2025-07-13 16:33:05,897 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AStrony_do_usuni%C4%99cia: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AStrony_do_usuni%C4%99cia
+2025-07-13 16:33:05,897 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Strony_do_usuni%C4%99cia: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Strony_do_usuni%C4%99cia
+2025-07-13 16:33:05,897 - src.sitemap_analyzer - INFO - Checked 150/432 links for broken status
+2025-07-13 16:33:05,898 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Strony_do_usuni%C4%99cia (Status: 404)
+2025-07-13 16:33:05,900 - src.sitemap_analyzer - INFO - Checked 150/432 pages for SEO issues
+2025-07-13 16:33:05,952 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Strony_podejrzane_o_naruszenie_praw_autorskich: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Strony_podejrzane_o_naruszenie_praw_autorskich
+2025-07-13 16:33:05,952 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Strony_podejrzane_o_naruszenie_praw_autorskich (Status: 404)
+2025-07-13 16:33:05,954 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AStrony_podejrzane_o_naruszenie_praw_autorskich: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AStrony_podejrzane_o_naruszenie_praw_autorskich
+2025-07-13 16:33:05,957 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AStrony_podejrzane_o_naruszenie_praw_autorskich (Status: 404)
+2025-07-13 16:33:06,056 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Do_usuni%C4%99cia: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Do_usuni%C4%99cia
+2025-07-13 16:33:06,057 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ADo_usuni%C4%99cia: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ADo_usuni%C4%99cia
+2025-07-13 16:33:06,057 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Do_usuni%C4%99cia (Status: 404)
+2025-07-13 16:33:06,058 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ADo_usuni%C4%99cia (Status: 404)
+2025-07-13 16:33:06,269 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Páginas_para_eliminar/ (Status: 404)
+2025-07-13 16:33:06,270 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:P%C3%A1ginas_para_eliminar/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:P%C3%A1ginas_para_eliminar/
+2025-07-13 16:33:06,270 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3AP%C3%A1ginas_para_eliminar/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3AP%C3%A1ginas_para_eliminar/
+2025-07-13 16:33:06,270 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:P%C3%A1ginas_para_eliminar/ (Status: 404)
+2025-07-13 16:33:06,270 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3AP%C3%A1ginas_para_eliminar/ (Status: 404)
+2025-07-13 16:33:06,274 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Páginas_para_eliminar/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:P%C3%A1ginas_para_eliminar/
+2025-07-13 16:33:06,543 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Discu%C5%A3ie_Wikipedia%3APagini_de_%C5%9Fters: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Discu%C5%A3ie_Wikipedia%3APagini_de_%C5%9Fters
+2025-07-13 16:33:06,544 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Discu%C5%A3ie_Wikipedia%3APagini_de_%C5%9Fters (Status: 404)
+2025-07-13 16:33:06,544 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Discu%C5%A3ie_Wikipedia:Pagini_de_%C5%9Fters: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Discu%C5%A3ie_Wikipedia:Pagini_de_%C5%9Fters
+2025-07-13 16:33:06,547 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Discu%C5%A3ie_Wikipedia:Pagini_de_%C5%9Fters (Status: 404)
+2025-07-13 16:33:06,560 - src.sitemap_analyzer - INFO - Checked 160/432 links for broken status
+2025-07-13 16:33:06,560 - src.sitemap_analyzer - INFO - Checked 160/432 pages for SEO issues
+2025-07-13 16:33:06,561 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_Discuss%C3%A3o%3AP%C3%A1ginas_para_eliminar/ (Status: 404)
+2025-07-13 16:33:06,561 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_Discuss%C3%A3o:P%C3%A1ginas_para_eliminar/ (Status: 404)
+2025-07-13 16:33:06,561 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_Discuss%C3%A3o:P%C3%A1ginas_para_eliminar/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_Discuss%C3%A3o:P%C3%A1ginas_para_eliminar/
+2025-07-13 16:33:06,561 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_Discussão:Páginas_para_eliminar/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_Discuss%C3%A3o:P%C3%A1ginas_para_eliminar/
+2025-07-13 16:33:06,561 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_Discussão:Páginas_para_eliminar/ (Status: 404)
+2025-07-13 16:33:06,562 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_Discuss%C3%A3o%3AP%C3%A1ginas_para_eliminar/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_Discuss%C3%A3o%3AP%C3%A1ginas_para_eliminar/
+2025-07-13 16:33:06,628 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3APagini_de_%C5%9Fters: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3APagini_de_%C5%9Fters
+2025-07-13 16:33:06,629 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Pagini_de_%C5%9Fters (Status: 404)
+2025-07-13 16:33:06,629 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Pagini_de_%C5%9Fters: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Pagini_de_%C5%9Fters
+2025-07-13 16:33:06,633 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3APagini_de_%C5%9Fters (Status: 404)
+2025-07-13 16:33:07,123 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Användare: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Anv%C3%A4ndare
+2025-07-13 16:33:07,123 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Användare (Status: 404)
+2025-07-13 16:33:07,124 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Anv%C3%A4ndare: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Anv%C3%A4ndare
+2025-07-13 16:33:07,165 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Sidor_föreslagna_för_radering: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Sidor_f%C3%B6reslagna_f%C3%B6r_radering
+2025-07-13 16:33:07,166 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Sidor_f%C3%B6reslagna_f%C3%B6r_radering (Status: 404)
+2025-07-13 16:33:07,166 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ASidor_f%C3%B6reslagna_f%C3%B6r_radering: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ASidor_f%C3%B6reslagna_f%C3%B6r_radering
+2025-07-13 16:33:07,166 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ASidor_f%C3%B6reslagna_f%C3%B6r_radering (Status: 404)
+2025-07-13 16:33:07,166 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Sidor_f%C3%B6reslagna_f%C3%B6r_radering: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Sidor_f%C3%B6reslagna_f%C3%B6r_radering
+2025-07-13 16:33:07,167 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Sidor_föreslagna_för_radering (Status: 404)
+2025-07-13 16:33:07,172 - src.sitemap_analyzer - INFO - Checked 170/432 pages for SEO issues
+2025-07-13 16:33:07,182 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Anv%C3%A4ndare (Status: 404)
+2025-07-13 16:33:07,183 - src.sitemap_analyzer - INFO - Checked 170/432 links for broken status
+2025-07-13 16:33:07,203 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search
+2025-07-13 16:33:07,205 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%3ASearch (Status: 404)
+2025-07-13 16:33:07,206 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5:Search (Status: 404)
+2025-07-13 16:33:07,211 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%3ASearch: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%3ASearch
+2025-07-13 16:33:07,271 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Användardiskussion (Status: 404)
+2025-07-13 16:33:07,272 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Anv%C3%A4ndardiskussion (Status: 404)
+2025-07-13 16:33:07,272 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Användardiskussion: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Anv%C3%A4ndardiskussion
+2025-07-13 16:33:07,274 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Anv%C3%A4ndardiskussion: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Anv%C3%A4ndardiskussion
+2025-07-13 16:33:07,513 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Skyddade_sidnamn: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Skyddade_sidnamn
+2025-07-13 16:33:07,513 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ASkyddade_sidnamn: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ASkyddade_sidnamn
+2025-07-13 16:33:07,514 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ASkyddade_sidnamn (Status: 404)
+2025-07-13 16:33:07,519 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Skyddade_sidnamn (Status: 404)
+2025-07-13 16:33:07,654 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A0%E9%99%A4%E6%8A%95%E7%A5%A8/%E4%BE%B5%E6%9D%83: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A0%E9%99%A4%E6%8A%95%E7%A5%A8/%E4%BE%B5%E6%9D%83
+2025-07-13 16:33:07,655 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A0%E9%99%A4%E6%8A%95%E7%A5%A8/%E4%BE%B5%E6%9D%83 (Status: 404)
+2025-07-13 16:33:07,715 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Category:%E5%BF%AB%E9%80%9F%E5%88%A0%E9%99%A4%E5%80%99%E9%80%89 (Status: 404)
+2025-07-13 16:33:07,715 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Category:%E5%BF%AB%E9%80%9F%E5%88%A0%E9%99%A4%E5%80%99%E9%80%89: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Category:%E5%BF%AB%E9%80%9F%E5%88%A0%E9%99%A4%E5%80%99%E9%80%89
+2025-07-13 16:33:07,726 - src.sitemap_analyzer - INFO - Checked 180/432 links for broken status
+2025-07-13 16:33:07,727 - src.sitemap_analyzer - INFO - Checked 180/432 pages for SEO issues
+2025-07-13 16:33:08,018 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Sidor_som_b%C3%B6r_raderas: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Sidor_som_b%C3%B6r_raderas
+2025-07-13 16:33:08,019 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia%3ASidor_som_b%C3%B6r_raderas (Status: 404)
+2025-07-13 16:33:08,021 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia%3ASidor_som_b%C3%B6r_raderas: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia%3ASidor_som_b%C3%B6r_raderas
+2025-07-13 16:33:08,021 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Sidor_som_bör_raderas (Status: 404)
+2025-07-13 16:33:08,022 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:Sidor_som_b%C3%B6r_raderas (Status: 404)
+2025-07-13 16:33:08,026 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:Sidor_som_bör_raderas: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:Sidor_som_b%C3%B6r_raderas
+2025-07-13 16:33:08,202 - src.sitemap_analyzer - INFO - Crawled 30 pages so far
+2025-07-13 16:33:08,372 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Portal:Prepared_stories/ (Status: 404)
+2025-07-13 16:33:08,410 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikinotizie:Richieste_di_cancellazione: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikinotizie:Richieste_di_cancellazione
+2025-07-13 16:33:08,490 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito
+2025-07-13 16:33:08,522 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A0%E9%99%A4%E6%8A%95%E7%A5%A8%E5%92%8C%E8%AF%B7%E6%B1%82 (Status: 404)
+2025-07-13 16:33:08,522 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A0%E9%99%A4%E6%8A%95%E7%A5%A8%E5%92%8C%E8%AF%B7%E6%B1%82: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia:%E5%88%A0%E9%99%A4%E6%8A%95%E7%A5%A8%E5%92%8C%E8%AF%B7%E6%B1%82
+2025-07-13 16:33:08,533 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikinotizie:Sospette_violazioni_di_copyright (Status: 404)
+2025-07-13 16:33:08,755 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito_per_violazione_integrale_copyright (Status: 404)
+2025-07-13 16:33:08,781 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Portal%3APrepared_stories/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Portal%3APrepared_stories/
+2025-07-13 16:33:08,802 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Portal:Prepared_stories/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Portal:Prepared_stories/
+2025-07-13 16:33:08,803 - src.sitemap_analyzer - INFO - Checked 190/432 pages for SEO issues
+2025-07-13 16:33:08,874 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikinotizie:Richieste_di_cancellazione (Status: 404)
+2025-07-13 16:33:08,876 - src.sitemap_analyzer - INFO - Checked 190/432 links for broken status
+2025-07-13 16:33:08,907 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito (Status: 404)
+2025-07-13 16:33:08,956 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito_per_violazione_integrale_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Categoria:Da_cancellare_subito_per_violazione_integrale_copyright
+2025-07-13 16:33:09,011 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Portal%3APrepared_stories/ (Status: 404)
+2025-07-13 16:33:09,059 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote_talk:Votes_for_deletion/ (Status: 404)
+2025-07-13 16:33:09,096 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Category:%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E9%9C%80%E8%A6%81%E7%BF%BB%E8%AF%91%E7%9A%84%E6%96%87%E7%AB%A0: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Category:%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E9%9C%80%E8%A6%81%E7%BF%BB%E8%AF%91%E7%9A%84%E6%96%87%E7%AB%A0
+2025-07-13 16:33:09,185 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote:Votes_for_deletion/: 404 Client Error: Not Found for url: https://en.wikiquote.org/wiki/Votes_for_deletion/
+2025-07-13 16:33:09,185 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote:Votes_for_deletion/ (Status: 404)
+2025-07-13 16:33:09,186 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote%3AVotes_for_deletion/ (Status: 404)
+2025-07-13 16:33:09,187 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote%3AVotes_for_deletion/: 404 Client Error: Not Found for url: https://en.wikiquote.org/wiki/Votes_for_deletion/
+2025-07-13 16:33:09,279 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikinotizie:Storie_in_preparazione (Status: 404)
+2025-07-13 16:33:09,298 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Category:%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E9%9C%80%E8%A6%81%E7%BF%BB%E8%AF%91%E7%9A%84%E6%96%87%E7%AB%A0 (Status: 404)
+2025-07-13 16:33:09,404 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikinotizie:Sospette_violazioni_di_copyright: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikinotizie:Sospette_violazioni_di_copyright
+2025-07-13 16:33:09,408 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote_talk:Votes_for_deletion_archive/ (Status: 404)
+2025-07-13 16:33:09,536 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikinotizie:Storie_in_preparazione: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikinotizie:Storie_in_preparazione
+2025-07-13 16:33:09,697 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote_talk%3AVotes_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikiquote_talk%3AVotes_for_deletion/
+2025-07-13 16:33:09,700 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Fundraising_2007/comments (Status: 404)
+2025-07-13 16:33:09,709 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote_talk:Votes_for_deletion/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikiquote_talk:Votes_for_deletion/
+2025-07-13 16:33:09,766 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote:Votes_for_deletion_archive/: 404 Client Error: Not Found for url: https://en.wikiquote.org/wiki/Votes_for_deletion_archive/
+2025-07-13 16:33:09,767 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote%3AVotes_for_deletion_archive/ (Status: 404)
+2025-07-13 16:33:09,767 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote%3AVotes_for_deletion_archive/: 404 Client Error: Not Found for url: https://en.wikiquote.org/wiki/Votes_for_deletion_archive/
+2025-07-13 16:33:09,767 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote:Votes_for_deletion_archive/ (Status: 404)
+2025-07-13 16:33:09,771 - src.sitemap_analyzer - INFO - Checked 200/432 links for broken status
+2025-07-13 16:33:09,787 - src.sitemap_analyzer - INFO - Checked 200/432 pages for SEO issues
+2025-07-13 16:33:09,844 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote_talk%3AVotes_for_deletion_archive/ (Status: 404)
+2025-07-13 16:33:09,994 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikiquote_talk%3AVotes_for_deletion/ (Status: 404)
+2025-07-13 16:33:10,054 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote_talk:Votes_for_deletion_archive/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikiquote_talk:Votes_for_deletion_archive/
+2025-07-13 16:33:10,057 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=f6f68c7bf12ac9ffb0ea8540c00f32c2&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=f6f68c7bf12ac9ffb0ea8540c00f32c2&usesul3=1&useformat=desktop
+2025-07-13 16:33:10,125 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikibooks:Votes_for_deletion (Status: 404)
+2025-07-13 16:33:10,126 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikibooks:Votes_for_deletion: 404 Client Error: Not Found for url: https://en.wikibooks.org/wiki/Votes_for_deletion
+2025-07-13 16:33:10,296 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikiquote_talk%3AVotes_for_deletion_archive/: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikiquote_talk%3AVotes_for_deletion_archive/
+2025-07-13 16:33:10,324 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=f6f68c7bf12ac9ffb0ea8540c00f32c2&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=f6f68c7bf12ac9ffb0ea8540c00f32c2&usesul3=1&useformat=desktop
+2025-07-13 16:33:10,344 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Fundraising_2007/comments: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Fundraising_2007/comments
+2025-07-13 16:33:11,094 - src.sitemap_analyzer - INFO - Checked 210/432 links for broken status
+2025-07-13 16:33:11,739 - src.sitemap_analyzer - INFO - Checked 210/432 pages for SEO issues
+2025-07-13 16:33:12,609 - src.sitemap_analyzer - INFO - Checked 220/432 links for broken status
+2025-07-13 16:33:13,351 - src.sitemap_analyzer - INFO - Checked 220/432 pages for SEO issues
+2025-07-13 16:33:15,341 - src.sitemap_analyzer - INFO - Checked 230/432 links for broken status
+2025-07-13 16:33:15,984 - src.sitemap_analyzer - INFO - Checked 230/432 pages for SEO issues
+2025-07-13 16:33:16,198 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=5ece138ff98aa338f8e3121b2b14316a&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=5ece138ff98aa338f8e3121b2b14316a&usesul3=1&useformat=desktop
+2025-07-13 16:33:16,465 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=5ece138ff98aa338f8e3121b2b14316a&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=5ece138ff98aa338f8e3121b2b14316a&usesul3=1&useformat=desktop
+2025-07-13 16:33:16,651 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk:Pages_for_deletion (Status: 404)
+2025-07-13 16:33:16,766 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk%3APages_for_deletion: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk%3APages_for_deletion
+2025-07-13 16:33:16,771 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk%3APages_for_deletion (Status: 404)
+2025-07-13 16:33:16,982 - src.sitemap_analyzer - INFO - Checked 240/432 links for broken status
+2025-07-13 16:33:16,994 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk:Pages_for_deletion: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk:Pages_for_deletion
+2025-07-13 16:33:17,386 - src.sitemap_analyzer - INFO - Crawled 40 pages so far
+2025-07-13 16:33:18,137 - src.sitemap_analyzer - INFO - Checked 240/432 pages for SEO issues
+2025-07-13 16:33:18,247 - src.sitemap_analyzer - INFO - Checked 250/432 links for broken status
+2025-07-13 16:33:19,464 - src.sitemap_analyzer - INFO - Checked 260/432 links for broken status
+2025-07-13 16:33:20,059 - src.sitemap_analyzer - INFO - Checked 250/432 pages for SEO issues
+2025-07-13 16:33:20,702 - src.sitemap_analyzer - INFO - Checked 270/432 links for broken status
+2025-07-13 16:33:20,741 - src.sitemap_analyzer - INFO - Checked 260/432 pages for SEO issues
+2025-07-13 16:33:21,771 - src.sitemap_analyzer - INFO - Checked 270/432 pages for SEO issues
+2025-07-13 16:33:21,832 - src.sitemap_analyzer - INFO - Checked 280/432 links for broken status
+2025-07-13 16:33:22,671 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d4844d6a6fe8529cdc23c3405f37ac7d&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d4844d6a6fe8529cdc23c3405f37ac7d&usesul3=1&useformat=desktop
+2025-07-13 16:33:22,866 - src.sitemap_analyzer - INFO - Checked 280/432 pages for SEO issues
+2025-07-13 16:33:22,969 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d4844d6a6fe8529cdc23c3405f37ac7d&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d4844d6a6fe8529cdc23c3405f37ac7d&usesul3=1&useformat=desktop
+2025-07-13 16:33:23,326 - src.sitemap_analyzer - INFO - Checked 290/432 links for broken status
+2025-07-13 16:33:24,126 - src.sitemap_analyzer - INFO - Checked 300/432 links for broken status
+2025-07-13 16:33:24,569 - src.sitemap_analyzer - INFO - Checked 290/432 pages for SEO issues
+2025-07-13 16:33:25,211 - src.sitemap_analyzer - INFO - Checked 310/432 links for broken status
+2025-07-13 16:33:25,677 - src.sitemap_analyzer - INFO - Checked 300/432 pages for SEO issues
+2025-07-13 16:33:26,212 - src.sitemap_analyzer - INFO - Checked 310/432 pages for SEO issues
+2025-07-13 16:33:26,610 - src.sitemap_analyzer - INFO - Checked 320/432 links for broken status
+2025-07-13 16:33:27,477 - src.sitemap_analyzer - INFO - Checked 320/432 pages for SEO issues
+2025-07-13 16:33:28,111 - src.sitemap_analyzer - INFO - Checked 330/432 links for broken status
+2025-07-13 16:33:28,364 - src.sitemap_analyzer - INFO - Checked 330/432 pages for SEO issues
+2025-07-13 16:33:28,949 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=e07d900887b9a06eb586707b1589ee3d&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=e07d900887b9a06eb586707b1589ee3d&usesul3=1&useformat=desktop
+2025-07-13 16:33:28,963 - src.sitemap_analyzer - INFO - Crawled 50 pages so far
+2025-07-13 16:33:29,246 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=e07d900887b9a06eb586707b1589ee3d&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=e07d900887b9a06eb586707b1589ee3d&usesul3=1&useformat=desktop
+2025-07-13 16:33:29,465 - src.sitemap_analyzer - INFO - Checked 340/432 links for broken status
+2025-07-13 16:33:29,936 - src.sitemap_analyzer - INFO - Checked 340/432 pages for SEO issues
+2025-07-13 16:33:30,234 - src.sitemap_analyzer - INFO - Checked 350/432 links for broken status
+2025-07-13 16:33:30,514 - src.sitemap_analyzer - INFO - Checked 350/432 pages for SEO issues
+2025-07-13 16:33:31,432 - src.sitemap_analyzer - INFO - Checked 360/432 links for broken status
+2025-07-13 16:33:31,962 - src.sitemap_analyzer - INFO - Checked 360/432 pages for SEO issues
+2025-07-13 16:33:32,566 - src.sitemap_analyzer - INFO - Checked 370/432 links for broken status
+2025-07-13 16:33:33,493 - src.sitemap_analyzer - INFO - Checked 370/432 pages for SEO issues
+2025-07-13 16:33:33,656 - src.sitemap_analyzer - INFO - Checked 380/432 links for broken status
+2025-07-13 16:33:34,397 - src.sitemap_analyzer - INFO - Checked 380/432 pages for SEO issues
+2025-07-13 16:33:34,716 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk:Arbitration_Committee_Elections (Status: 404)
+2025-07-13 16:33:34,773 - src.sitemap_analyzer - INFO - Checked 390/432 links for broken status
+2025-07-13 16:33:35,014 - src.sitemap_analyzer - WARNING - Broken link detected: https://en.wikipedia.org/wiki/Wikipedia_talk%3AArbitration_Committee_Elections (Status: 404)
+2025-07-13 16:33:35,363 - src.sitemap_analyzer - INFO - Checked 390/432 pages for SEO issues
+2025-07-13 16:33:35,474 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ba72e1707dbf12c656f45e5627d91c5c&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ba72e1707dbf12c656f45e5627d91c5c&usesul3=1&useformat=desktop
+2025-07-13 16:33:35,500 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk:Arbitration_Committee_Elections: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk:Arbitration_Committee_Elections
+2025-07-13 16:33:35,659 - src.sitemap_analyzer - WARNING - Error fetching page for SEO check https://en.wikipedia.org/wiki/Wikipedia_talk%3AArbitration_Committee_Elections: 404 Client Error: Not Found for url: https://en.wikipedia.org/wiki/Wikipedia_talk%3AArbitration_Committee_Elections
+2025-07-13 16:33:35,666 - src.sitemap_analyzer - INFO - Checked 400/432 links for broken status
+2025-07-13 16:33:35,734 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ba72e1707dbf12c656f45e5627d91c5c&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ba72e1707dbf12c656f45e5627d91c5c&usesul3=1&useformat=desktop
+2025-07-13 16:33:36,193 - src.sitemap_analyzer - INFO - Checked 400/432 pages for SEO issues
+2025-07-13 16:33:36,380 - src.sitemap_analyzer - INFO - Checked 410/432 links for broken status
+2025-07-13 16:33:36,861 - src.sitemap_analyzer - INFO - Checked 410/432 pages for SEO issues
+2025-07-13 16:33:37,762 - src.sitemap_analyzer - INFO - Checked 420/432 links for broken status
+2025-07-13 16:33:37,867 - src.sitemap_analyzer - INFO - Checked 420/432 pages for SEO issues
+2025-07-13 16:33:38,806 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:38,807 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:38,809 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:38,809 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:38,871 - src.sitemap_analyzer - INFO - Crawled 60 pages so far
+2025-07-13 16:33:38,969 - src.sitemap_analyzer - INFO - Checked 430/432 links for broken status
+2025-07-13 16:33:39,149 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:39,214 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:39,391 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:39,489 - src.sitemap_analyzer - INFO - Checked 430/432 pages for SEO issues
+2025-07-13 16:33:39,491 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:39,491 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:39,627 - src.sitemap_analyzer - INFO - Broken links detection completed. Found 179 broken links
+2025-07-13 16:33:39,728 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:39,745 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: en.wikipedia.org. Connection pool size: 10
+2025-07-13 16:33:39,877 - src.sitemap_analyzer - INFO - SEO issues detection completed. Found 432 SEO issues
+2025-07-13 16:33:40,961 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=7da564a9cb2490e9ac3712a3165004fc&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=7da564a9cb2490e9ac3712a3165004fc&usesul3=1&useformat=desktop
+2025-07-13 16:33:41,225 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=7da564a9cb2490e9ac3712a3165004fc&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=7da564a9cb2490e9ac3712a3165004fc&usesul3=1&useformat=desktop
+2025-07-13 16:33:46,570 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ae69770920b6faa81dca0c602bb4d0ce&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ae69770920b6faa81dca0c602bb4d0ce&usesul3=1&useformat=desktop
+2025-07-13 16:33:46,846 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ae69770920b6faa81dca0c602bb4d0ce&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ae69770920b6faa81dca0c602bb4d0ce&usesul3=1&useformat=desktop
+2025-07-13 16:33:47,386 - src.sitemap_analyzer - INFO - Crawled 70 pages so far
+2025-07-13 16:33:51,300 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=11d4b6ec0b6e6a271df8e9546c7fad56&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=11d4b6ec0b6e6a271df8e9546c7fad56&usesul3=1&useformat=desktop
+2025-07-13 16:33:51,569 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=11d4b6ec0b6e6a271df8e9546c7fad56&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=11d4b6ec0b6e6a271df8e9546c7fad56&usesul3=1&useformat=desktop
+2025-07-13 16:33:57,192 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=8812b9317bb24448b9918d0a6435b9fe&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=8812b9317bb24448b9918d0a6435b9fe&usesul3=1&useformat=desktop
+2025-07-13 16:33:57,193 - src.sitemap_analyzer - INFO - Crawled 80 pages so far
+2025-07-13 16:33:57,884 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=8812b9317bb24448b9918d0a6435b9fe&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=8812b9317bb24448b9918d0a6435b9fe&usesul3=1&useformat=desktop
+2025-07-13 16:34:03,593 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=4c91cdbf49dac356315b3f31f8f0855f&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=4c91cdbf49dac356315b3f31f8f0855f&usesul3=1&useformat=desktop
+2025-07-13 16:34:03,869 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=4c91cdbf49dac356315b3f31f8f0855f&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=4c91cdbf49dac356315b3f31f8f0855f&usesul3=1&useformat=desktop
+2025-07-13 16:34:06,857 - src.sitemap_analyzer - INFO - Crawled 90 pages so far
+2025-07-13 16:34:08,677 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=5c43821dee3e7d470956e5a5de2a78f2&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=5c43821dee3e7d470956e5a5de2a78f2&usesul3=1&useformat=desktop
+2025-07-13 16:34:08,941 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=5c43821dee3e7d470956e5a5de2a78f2&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=5c43821dee3e7d470956e5a5de2a78f2&usesul3=1&useformat=desktop
+2025-07-13 16:34:13,827 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=55071ed5a444b7abeec6aada4d89658e&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=55071ed5a444b7abeec6aada4d89658e&usesul3=1&useformat=desktop
+2025-07-13 16:34:14,095 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=55071ed5a444b7abeec6aada4d89658e&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=55071ed5a444b7abeec6aada4d89658e&usesul3=1&useformat=desktop
+2025-07-13 16:34:14,663 - src.sitemap_analyzer - INFO - Crawled 100 pages so far
+2025-07-13 16:34:18,797 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=9e7e5ac35f34570bd359a84676a0c5c0&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=9e7e5ac35f34570bd359a84676a0c5c0&usesul3=1&useformat=desktop
+2025-07-13 16:34:19,065 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=9e7e5ac35f34570bd359a84676a0c5c0&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=9e7e5ac35f34570bd359a84676a0c5c0&usesul3=1&useformat=desktop
+2025-07-13 16:34:23,407 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=2c56beb3b79d057102e8a82b88e6840f&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=2c56beb3b79d057102e8a82b88e6840f&usesul3=1&useformat=desktop
+2025-07-13 16:34:23,409 - src.sitemap_analyzer - INFO - Crawled 110 pages so far
+2025-07-13 16:34:23,672 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=2c56beb3b79d057102e8a82b88e6840f&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=2c56beb3b79d057102e8a82b88e6840f&usesul3=1&useformat=desktop
+2025-07-13 16:34:28,086 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ee9c370e9be8822b8a61f2bfdc197178&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ee9c370e9be8822b8a61f2bfdc197178&usesul3=1&useformat=desktop
+2025-07-13 16:34:28,352 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ee9c370e9be8822b8a61f2bfdc197178&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ee9c370e9be8822b8a61f2bfdc197178&usesul3=1&useformat=desktop
+2025-07-13 16:34:31,295 - src.sitemap_analyzer - INFO - Crawled 120 pages so far
+2025-07-13 16:34:33,142 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=2a9a6cfa59c4ba84107f8d2fab559c60&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=2a9a6cfa59c4ba84107f8d2fab559c60&usesul3=1&useformat=desktop
+2025-07-13 16:34:33,416 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=2a9a6cfa59c4ba84107f8d2fab559c60&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=2a9a6cfa59c4ba84107f8d2fab559c60&usesul3=1&useformat=desktop
+2025-07-13 16:34:38,109 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=1c5e203cffea46d29a436185017f4306&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=1c5e203cffea46d29a436185017f4306&usesul3=1&useformat=desktop
+2025-07-13 16:34:38,375 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=1c5e203cffea46d29a436185017f4306&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=1c5e203cffea46d29a436185017f4306&usesul3=1&useformat=desktop
+2025-07-13 16:34:39,186 - src.sitemap_analyzer - INFO - Crawled 130 pages so far
+2025-07-13 16:34:43,024 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=7d3dafb0586466c2c8b84b5f6f0e5456&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=7d3dafb0586466c2c8b84b5f6f0e5456&usesul3=1&useformat=desktop
+2025-07-13 16:34:43,289 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=7d3dafb0586466c2c8b84b5f6f0e5456&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=7d3dafb0586466c2c8b84b5f6f0e5456&usesul3=1&useformat=desktop
+2025-07-13 16:34:48,017 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d53a72441aab2bb6418715b823424614&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d53a72441aab2bb6418715b823424614&usesul3=1&useformat=desktop
+2025-07-13 16:34:48,018 - src.sitemap_analyzer - INFO - Crawled 140 pages so far
+2025-07-13 16:34:48,281 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d53a72441aab2bb6418715b823424614&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d53a72441aab2bb6418715b823424614&usesul3=1&useformat=desktop
+2025-07-13 16:34:53,603 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=73cc1577e574752646f72c8961c2d61c&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=73cc1577e574752646f72c8961c2d61c&usesul3=1&useformat=desktop
+2025-07-13 16:34:53,875 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=73cc1577e574752646f72c8961c2d61c&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=73cc1577e574752646f72c8961c2d61c&usesul3=1&useformat=desktop
+2025-07-13 16:34:56,974 - src.sitemap_analyzer - INFO - Crawled 150 pages so far
+2025-07-13 16:34:58,842 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=c1acde918167279f40e301ca46e253a1&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=c1acde918167279f40e301ca46e253a1&usesul3=1&useformat=desktop
+2025-07-13 16:34:59,108 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=c1acde918167279f40e301ca46e253a1&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=c1acde918167279f40e301ca46e253a1&usesul3=1&useformat=desktop
+2025-07-13 16:35:03,822 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=0e2dd0cd6b8fd5d78ab834119d59859c&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=0e2dd0cd6b8fd5d78ab834119d59859c&usesul3=1&useformat=desktop
+2025-07-13 16:35:04,099 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=0e2dd0cd6b8fd5d78ab834119d59859c&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=0e2dd0cd6b8fd5d78ab834119d59859c&usesul3=1&useformat=desktop
+2025-07-13 16:35:04,674 - src.sitemap_analyzer - INFO - Crawled 160 pages so far
+2025-07-13 16:35:08,835 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=1fffbbf453cf7701370ebf5a8721575e&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=1fffbbf453cf7701370ebf5a8721575e&usesul3=1&useformat=desktop
+2025-07-13 16:35:09,102 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=1fffbbf453cf7701370ebf5a8721575e&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=1fffbbf453cf7701370ebf5a8721575e&usesul3=1&useformat=desktop
+2025-07-13 16:35:14,214 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=c17875226a5fa64089453d081d3dc615&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=c17875226a5fa64089453d081d3dc615&usesul3=1&useformat=desktop
+2025-07-13 16:35:14,216 - src.sitemap_analyzer - INFO - Crawled 170 pages so far
+2025-07-13 16:35:14,477 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=c17875226a5fa64089453d081d3dc615&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=c17875226a5fa64089453d081d3dc615&usesul3=1&useformat=desktop
+2025-07-13 16:35:18,638 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d6b46fe7b5aca9379c2f5f1c10716d22&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d6b46fe7b5aca9379c2f5f1c10716d22&usesul3=1&useformat=desktop
+2025-07-13 16:35:19,341 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d6b46fe7b5aca9379c2f5f1c10716d22&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d6b46fe7b5aca9379c2f5f1c10716d22&usesul3=1&useformat=desktop
+2025-07-13 16:35:22,302 - src.sitemap_analyzer - INFO - Crawled 180 pages so far
+2025-07-13 16:35:24,298 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=be87cf295ae1109d89a1db4a925f5a70&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=be87cf295ae1109d89a1db4a925f5a70&usesul3=1&useformat=desktop
+2025-07-13 16:35:24,561 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=be87cf295ae1109d89a1db4a925f5a70&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=be87cf295ae1109d89a1db4a925f5a70&usesul3=1&useformat=desktop
+2025-07-13 16:35:29,862 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=63a4be8168f30a049c3474da9cf78708&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=63a4be8168f30a049c3474da9cf78708&usesul3=1&useformat=desktop
+2025-07-13 16:35:30,138 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=63a4be8168f30a049c3474da9cf78708&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=63a4be8168f30a049c3474da9cf78708&usesul3=1&useformat=desktop
+2025-07-13 16:35:31,189 - src.sitemap_analyzer - INFO - Crawled 190 pages so far
+2025-07-13 16:35:35,473 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=2d8db7c72ecff8efe6eedc7978b5b8cc&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=2d8db7c72ecff8efe6eedc7978b5b8cc&usesul3=1&useformat=desktop
+2025-07-13 16:35:35,742 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=2d8db7c72ecff8efe6eedc7978b5b8cc&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=2d8db7c72ecff8efe6eedc7978b5b8cc&usesul3=1&useformat=desktop
+2025-07-13 16:35:41,315 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=cc42c9ef7804e1566dd86ad1085362b2&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=cc42c9ef7804e1566dd86ad1085362b2&usesul3=1&useformat=desktop
+2025-07-13 16:35:41,316 - src.sitemap_analyzer - INFO - Crawled 200 pages so far
+2025-07-13 16:35:41,584 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=cc42c9ef7804e1566dd86ad1085362b2&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=cc42c9ef7804e1566dd86ad1085362b2&usesul3=1&useformat=desktop
+2025-07-13 16:35:46,380 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=62369a740df9d6cf444fc9feccf49865&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=62369a740df9d6cf444fc9feccf49865&usesul3=1&useformat=desktop
+2025-07-13 16:35:46,655 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=62369a740df9d6cf444fc9feccf49865&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=62369a740df9d6cf444fc9feccf49865&usesul3=1&useformat=desktop
+2025-07-13 16:35:49,583 - src.sitemap_analyzer - INFO - Crawled 210 pages so far
+2025-07-13 16:35:51,125 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=8bab4e4c4c5995e37c0fff685ec8c484&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=8bab4e4c4c5995e37c0fff685ec8c484&usesul3=1&useformat=desktop
+2025-07-13 16:35:51,386 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=8bab4e4c4c5995e37c0fff685ec8c484&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=8bab4e4c4c5995e37c0fff685ec8c484&usesul3=1&useformat=desktop
+2025-07-13 16:35:55,953 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=dda23bbe52699e597bd9b253db9f3a39&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=dda23bbe52699e597bd9b253db9f3a39&usesul3=1&useformat=desktop
+2025-07-13 16:35:56,217 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=dda23bbe52699e597bd9b253db9f3a39&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=dda23bbe52699e597bd9b253db9f3a39&usesul3=1&useformat=desktop
+2025-07-13 16:35:56,781 - src.sitemap_analyzer - INFO - Crawled 220 pages so far
+2025-07-13 16:36:00,723 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=9b8cc2ff8d1234f0c6d677353ed8bbfa&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=9b8cc2ff8d1234f0c6d677353ed8bbfa&usesul3=1&useformat=desktop
+2025-07-13 16:36:00,988 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=9b8cc2ff8d1234f0c6d677353ed8bbfa&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=9b8cc2ff8d1234f0c6d677353ed8bbfa&usesul3=1&useformat=desktop
+2025-07-13 16:36:06,307 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=30d38cbdb68e0bf66139406a7a93b195&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=30d38cbdb68e0bf66139406a7a93b195&usesul3=1&useformat=desktop
+2025-07-13 16:36:06,308 - src.sitemap_analyzer - INFO - Crawled 230 pages so far
+2025-07-13 16:36:07,013 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=30d38cbdb68e0bf66139406a7a93b195&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=30d38cbdb68e0bf66139406a7a93b195&usesul3=1&useformat=desktop
+2025-07-13 16:36:12,196 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d1181004119aeee41c6b980a1ace5a13&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=d1181004119aeee41c6b980a1ace5a13&usesul3=1&useformat=desktop
+2025-07-13 16:36:12,473 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d1181004119aeee41c6b980a1ace5a13&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=d1181004119aeee41c6b980a1ace5a13&usesul3=1&useformat=desktop
+2025-07-13 16:36:15,116 - src.sitemap_analyzer - INFO - Crawled 240 pages so far
+2025-07-13 16:36:16,721 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=1fcf974b892f665c1e1ab182e5ac7481&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=1fcf974b892f665c1e1ab182e5ac7481&usesul3=1&useformat=desktop
+2025-07-13 16:36:16,986 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=1fcf974b892f665c1e1ab182e5ac7481&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=1fcf974b892f665c1e1ab182e5ac7481&usesul3=1&useformat=desktop
+2025-07-13 16:36:22,376 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=9c74eceeda32f3281da79b6592b22dc7&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=9c74eceeda32f3281da79b6592b22dc7&usesul3=1&useformat=desktop
+2025-07-13 16:36:22,635 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=9c74eceeda32f3281da79b6592b22dc7&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=9c74eceeda32f3281da79b6592b22dc7&usesul3=1&useformat=desktop
+2025-07-13 16:36:23,394 - src.sitemap_analyzer - INFO - Crawled 250 pages so far
+2025-07-13 16:36:27,490 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ea2a94082a10bf9476ce233a782ad566&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=ea2a94082a10bf9476ce233a782ad566&usesul3=1&useformat=desktop
+2025-07-13 16:36:27,760 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ea2a94082a10bf9476ce233a782ad566&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=ea2a94082a10bf9476ce233a782ad566&usesul3=1&useformat=desktop
+2025-07-13 16:36:31,718 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=b8852f45338cb245eddb59b2b7453133&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=b8852f45338cb245eddb59b2b7453133&usesul3=1&useformat=desktop
+2025-07-13 16:36:31,719 - src.sitemap_analyzer - INFO - Crawled 260 pages so far
+2025-07-13 16:36:31,981 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=b8852f45338cb245eddb59b2b7453133&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=b8852f45338cb245eddb59b2b7453133&usesul3=1&useformat=desktop
+2025-07-13 16:36:37,386 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=3424c66c38f8c0c07bb1bda67424e27b&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=3424c66c38f8c0c07bb1bda67424e27b&usesul3=1&useformat=desktop
+2025-07-13 16:36:37,649 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=3424c66c38f8c0c07bb1bda67424e27b&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=3424c66c38f8c0c07bb1bda67424e27b&usesul3=1&useformat=desktop
+2025-07-13 16:36:41,196 - src.sitemap_analyzer - INFO - Crawled 270 pages so far
+2025-07-13 16:36:43,297 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=24f2610dcf6705638877cf0d9b3b2a98&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:CreateAccount&returntoquery=%3F&centralauthLoginToken=24f2610dcf6705638877cf0d9b3b2a98&usesul3=1&useformat=desktop
+2025-07-13 16:36:43,561 - src.sitemap_analyzer - WARNING - Error crawling https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=24f2610dcf6705638877cf0d9b3b2a98&usesul3=1&useformat=desktop: 404 Client Error: Not Found for url: https://en.wikipedia.org/enwiki/w/index.php?title=Special:UserLogin&returntoquery=%3F&centralauthLoginToken=24f2610dcf6705638877cf0d9b3b2a98&usesul3=1&useformat=desktop
+2025-07-13 16:37:39,111 - __main__ - INFO - Starting sitemap analysis for: https://smallpdf.com/
+2025-07-13 16:37:39,112 - __main__ - INFO - The analyzer will automatically:
+2025-07-13 16:37:39,112 - __main__ - INFO - 1. Check if the URL is a direct sitemap.xml
+2025-07-13 16:37:39,112 - __main__ - INFO - 2. Look for sitemap in robots.txt if not found
+2025-07-13 16:37:39,112 - __main__ - INFO - 3. Try common sitemap locations (/sitemap.xml, /sitemap_index.xml, etc.)
+2025-07-13 16:37:39,112 - src.sitemap_analyzer - INFO - Attempting to find sitemap URL from: https://smallpdf.com/
+2025-07-13 16:37:39,113 - src.sitemap_analyzer - INFO - Checking robots.txt at: https://smallpdf.com/robots.txt
+2025-07-13 16:37:39,491 - src.sitemap_analyzer - INFO - Found sitemap URL in robots.txt: https://smallpdf.com/sitemap.xml
+2025-07-13 16:37:39,715 - src.sitemap_analyzer - INFO - Initialized SitemapAnalyzer for https://smallpdf.com/sitemap.xml
+2025-07-13 16:37:39,716 - src.sitemap_analyzer - INFO - Base URL extracted: https://smallpdf.com
+2025-07-13 16:37:39,716 - src.sitemap_analyzer - INFO - Starting sitemap analysis
+2025-07-13 16:37:39,716 - src.sitemap_analyzer - INFO - Fetching sitemap from https://smallpdf.com/sitemap.xml
+2025-07-13 16:37:41,093 - src.sitemap_analyzer - INFO - Detected regular sitemap file
+2025-07-13 16:37:41,116 - src.sitemap_analyzer - INFO - Found 3949 URLs in total from sitemap(s)
+2025-07-13 16:37:41,117 - src.sitemap_analyzer - INFO - Starting parallel analysis tasks
+2025-07-13 16:37:41,118 - src.sitemap_analyzer - INFO - Submitting broken links detection task
+2025-07-13 16:37:41,120 - src.sitemap_analyzer - INFO - Starting broken links detection for 3949 URLs
+2025-07-13 16:37:41,120 - src.sitemap_analyzer - INFO - Submitting orphan pages detection task
+2025-07-13 16:37:41,123 - src.sitemap_analyzer - INFO - Starting orphan pages detection for 3949 URLs
+2025-07-13 16:37:41,123 - src.sitemap_analyzer - INFO - Submitting SEO issues detection task
+2025-07-13 16:37:41,124 - src.sitemap_analyzer - INFO - Crawling website to discover internal links
+2025-07-13 16:37:41,127 - src.sitemap_analyzer - INFO - Starting website crawl from https://smallpdf.com
+2025-07-13 16:37:41,133 - src.sitemap_analyzer - INFO - Starting SEO issues detection for 3949 URLs
+2025-07-13 16:37:42,685 - src.sitemap_analyzer - INFO - Checked 10/3949 pages for SEO issues
+2025-07-13 16:37:42,716 - src.sitemap_analyzer - INFO - Checked 10/3949 links for broken status
+2025-07-13 16:37:43,960 - src.sitemap_analyzer - INFO - Checked 20/3949 links for broken status
+2025-07-13 16:37:43,960 - src.sitemap_analyzer - INFO - Checked 20/3949 pages for SEO issues
+2025-07-13 16:37:44,639 - src.sitemap_analyzer - INFO - Checked 30/3949 pages for SEO issues
+2025-07-13 16:37:44,640 - src.sitemap_analyzer - INFO - Checked 30/3949 links for broken status
+2025-07-13 16:37:45,635 - src.sitemap_analyzer - INFO - Crawled 10 pages so far
+2025-07-13 16:37:45,636 - src.sitemap_analyzer - INFO - Checked 40/3949 links for broken status
+2025-07-13 16:37:45,675 - src.sitemap_analyzer - INFO - Checked 40/3949 pages for SEO issues
+2025-07-13 16:37:46,273 - src.sitemap_analyzer - INFO - Checked 50/3949 pages for SEO issues
+2025-07-13 16:37:46,274 - src.sitemap_analyzer - INFO - Checked 50/3949 links for broken status
+2025-07-13 16:37:46,911 - src.sitemap_analyzer - INFO - Checked 60/3949 links for broken status
+2025-07-13 16:37:46,937 - src.sitemap_analyzer - INFO - Checked 60/3949 pages for SEO issues
+2025-07-13 16:37:47,575 - src.sitemap_analyzer - INFO - Checked 70/3949 pages for SEO issues
+2025-07-13 16:37:47,576 - src.sitemap_analyzer - INFO - Checked 70/3949 links for broken status
+2025-07-13 16:37:48,041 - src.sitemap_analyzer - INFO - Checked 80/3949 pages for SEO issues
+2025-07-13 16:37:48,097 - src.sitemap_analyzer - INFO - Checked 80/3949 links for broken status
+2025-07-13 16:37:48,631 - src.sitemap_analyzer - INFO - Checked 90/3949 pages for SEO issues
+2025-07-13 16:37:48,633 - src.sitemap_analyzer - INFO - Checked 90/3949 links for broken status
+2025-07-13 16:37:49,102 - src.sitemap_analyzer - INFO - Checked 100/3949 links for broken status
+2025-07-13 16:37:49,140 - src.sitemap_analyzer - INFO - Checked 100/3949 pages for SEO issues
+2025-07-13 16:37:49,573 - src.sitemap_analyzer - INFO - Checked 110/3949 links for broken status
+2025-07-13 16:37:49,606 - src.sitemap_analyzer - INFO - Checked 110/3949 pages for SEO issues
+2025-07-13 16:37:50,101 - src.sitemap_analyzer - INFO - Checked 120/3949 links for broken status
+2025-07-13 16:37:50,130 - src.sitemap_analyzer - INFO - Checked 120/3949 pages for SEO issues
+2025-07-13 16:37:50,518 - src.sitemap_analyzer - INFO - Checked 130/3949 links for broken status
+2025-07-13 16:37:50,549 - src.sitemap_analyzer - INFO - Checked 130/3949 pages for SEO issues
+2025-07-13 16:37:51,012 - src.sitemap_analyzer - INFO - Checked 140/3949 pages for SEO issues
+2025-07-13 16:37:51,014 - src.sitemap_analyzer - INFO - Checked 140/3949 links for broken status
+2025-07-13 16:37:51,347 - src.sitemap_analyzer - INFO - Crawled 20 pages so far
+2025-07-13 16:37:51,469 - src.sitemap_analyzer - INFO - Checked 150/3949 pages for SEO issues
+2025-07-13 16:37:51,473 - src.sitemap_analyzer - INFO - Checked 150/3949 links for broken status
+2025-07-13 16:37:51,937 - src.sitemap_analyzer - INFO - Checked 160/3949 links for broken status
+2025-07-13 16:37:52,004 - src.sitemap_analyzer - INFO - Checked 160/3949 pages for SEO issues
+2025-07-13 16:37:52,271 - src.sitemap_analyzer - INFO - Checked 170/3949 links for broken status
+2025-07-13 16:37:52,350 - src.sitemap_analyzer - INFO - Checked 170/3949 pages for SEO issues
+2025-07-13 16:37:52,677 - src.sitemap_analyzer - INFO - Checked 180/3949 links for broken status
+2025-07-13 16:37:52,699 - src.sitemap_analyzer - INFO - Checked 180/3949 pages for SEO issues
+2025-07-13 16:37:53,097 - src.sitemap_analyzer - INFO - Checked 190/3949 links for broken status
+2025-07-13 16:37:53,148 - src.sitemap_analyzer - INFO - Checked 190/3949 pages for SEO issues
+2025-07-13 16:37:53,699 - src.sitemap_analyzer - INFO - Checked 200/3949 pages for SEO issues
+2025-07-13 16:37:53,703 - src.sitemap_analyzer - INFO - Checked 200/3949 links for broken status
+2025-07-13 16:37:54,125 - src.sitemap_analyzer - INFO - Checked 210/3949 links for broken status
+2025-07-13 16:37:54,221 - src.sitemap_analyzer - INFO - Checked 210/3949 pages for SEO issues
+2025-07-13 16:37:54,547 - src.sitemap_analyzer - INFO - Checked 220/3949 links for broken status
+2025-07-13 16:37:54,574 - src.sitemap_analyzer - INFO - Checked 220/3949 pages for SEO issues
+2025-07-13 16:37:54,906 - src.sitemap_analyzer - INFO - Checked 230/3949 links for broken status
+2025-07-13 16:37:54,937 - src.sitemap_analyzer - INFO - Checked 230/3949 pages for SEO issues
+2025-07-13 16:37:55,310 - src.sitemap_analyzer - INFO - Checked 240/3949 links for broken status
+2025-07-13 16:37:55,374 - src.sitemap_analyzer - INFO - Checked 240/3949 pages for SEO issues
+2025-07-13 16:37:55,764 - src.sitemap_analyzer - INFO - Crawled 30 pages so far
+2025-07-13 16:37:55,869 - src.sitemap_analyzer - INFO - Checked 250/3949 links for broken status
+2025-07-13 16:37:55,897 - src.sitemap_analyzer - INFO - Checked 250/3949 pages for SEO issues
+2025-07-13 16:37:56,467 - src.sitemap_analyzer - INFO - Checked 260/3949 pages for SEO issues
+2025-07-13 16:37:56,468 - src.sitemap_analyzer - INFO - Checked 260/3949 links for broken status
+2025-07-13 16:37:56,809 - src.sitemap_analyzer - INFO - Checked 270/3949 links for broken status
+2025-07-13 16:37:56,837 - src.sitemap_analyzer - INFO - Checked 270/3949 pages for SEO issues
