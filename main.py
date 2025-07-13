@@ -9,6 +9,7 @@ if __name__ == "__main__":
     analyzer = SitemapAnalyzer(sitemap_url)
     try:
         results = analyzer.analyze()
-        print(results)
+        for result in results:
+            print(result)
     except Exception as e:
         print(f"An error occurred: {e}")
