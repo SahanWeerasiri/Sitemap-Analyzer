@@ -17,7 +17,7 @@ class SitemapAnalyzer:
     def analyze(self):
         """Analyzes the sitemap and returns a report of issues."""
         try:
-            response = requests.get(self.sitemap_url)
+            response = requests.get(self.sitemap_url, timeout=10)
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'xml')
             urls = [loc.text for loc in soup.find_all('loc')]
@@ -39,7 +39,7 @@ class SitemapAnalyzer:
         broken_links = []
         for url in urls:
             try:
-                response = requests.get(url)
+                response = requests.get(url, timeout=5)
                 if response.status_code >= 400:
                     broken_links.append({"url": url, "status_code": response.status_code})
             except requests.exceptions.RequestException:
@@ -57,11 +57,12 @@ class SitemapAnalyzer:
         seo_issues = []
         for url in urls:
             try:
-                response = requests.get(url)
+                response = requests.get(url, timeout=5)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.content, 'html.parser')
-                description = soup.find('meta', attrs={'name': 'description'})
-                if description is None or not description.get('content'):
+                description_tag = soup.find('meta', attrs={'name': 'description'})
+                description_content = description_tag.get('content') if description_tag else None
+                if not description_content or not description_content.strip():
                     seo_issues.append({"url": url, "issue": "Missing meta description"})
             except requests.exceptions.RequestException:
                 seo_issues.append({"url": url, "issue": "Error fetching page"})
@@ -80,11 +81,11 @@ class SitemapAnalyzer:
 
       self.visited.add(url)
       try:
-          response = requests.get(url)
+          response = requests.get(url, timeout=5)
           response.raise_for_status()
           soup = BeautifulSoup(response.content, 'html.parser')
           for link in soup.find_all('a', href=True):
-              absolute_url = urljoin(self.base_url, link['href'])
+              absolute_url = urljoin(url, link['href'])
               if self.base_url in absolute_url:
                   internal_links.add(absolute_url)
                   self.crawl_page(absolute_url, internal_links)
