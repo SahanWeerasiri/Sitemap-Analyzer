@@ -31,7 +31,7 @@ A backend service (Python) for analyzing website sitemaps, identifying broken li
 
 *   `POST /analyze`: Analyzes a sitemap.
     *   Request body: `{"sitemap_url": "URL_OF_SITEMAP"}`
-    *   Response: `{"status": "success", "report": {...}}`
+    *   Response: `{"status": "success", "report": {...}}`  (or `{"status": "error", "message": "error details"}`)
 
 ### CLI
 
